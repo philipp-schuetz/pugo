@@ -1,0 +1,10 @@
+<footer class="footer">
+    <span>
+        &copy; {{ now.Year }} {{ .Site.Copyright }} |
+        <a href="{{ .Site.BaseURL }}imprint">{{ i18n "imprint" . }}</a> |
+        <a href="{{ .Site.BaseURL }}privacy-policy">{{ i18n "privacy-policy" . }}</a>
+    </span>
+    <span>
+        {{ i18n "made-with" . }} <a target="_blank" href="https://github.com/philipp-schuetz/pugo">Pugo</a>
+    </span>
+</footer>
